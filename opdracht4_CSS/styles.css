@@ -1,0 +1,21 @@
+body {
+    color: rgb(204, 204, 204);
+}
+
+.color-border{
+    border: 5px dashed rgb(231, 199, 14);
+}
+
+.grey-background {
+    background-color: rgb(66, 65, 65);
+}
+
+.oker-background{
+    background-color:rgb(231, 199, 14);
+}
+
+.over-mij{
+    font-family: 'Shadows Into Light', cursive;
+    color:rgb(66, 65, 65);
+}
+
