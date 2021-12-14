@@ -1,0 +1,67 @@
+body {
+   margin:0;
+   font-family: 'Shadows Into Light', cursive;
+   background-color: rgb(245, 243, 243);
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: -2%;
+}
+
+h2{
+    margin-bottom: 5%;
+    font-size: 38px;
+}
+
+header{
+    padding: 0 5% 0 5%;
+    margin: auto;
+    background-color: rgb(17, 153, 78);
+    color: #fff;
+    
+}
+
+.heading-one{
+    text-align:center;
+    padding: 7% 0 1% 0;
+}
+
+.nav-main{
+    margin: 0 40px 5px 0;
+    list-style-type: none;
+   
+}
+
+.nav-main-list {
+    display: inline;
+    border: 1px solid #fff;
+    margin: 0 10px;
+    padding: 0 2%;
+    font-size: 30px;
+    
+}
+.nav-main-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main{
+    padding-top: 5%;
+    width: 80%;
+    margin: auto;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+.over-mij{
+    font-family: 'Shadows Into Light', cursive;
+    color:rgb(233, 233, 233)
+}
+
