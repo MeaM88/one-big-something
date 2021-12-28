@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- hier zet je de code in de head tags -->
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <title>Contact</title>
+</head>
+
+<body>
+    <header class="heading-one">
+        <h1>Contact</h1>
+        <h2>Voor de FAQ</h2>
+        <nav>
+            <ul class="nav-main">
+                <li class="nav-main-list"><a href="index.html"> Home</a></li>
+                <li class="nav-main-list"><a href="about.html"> Over mij</a></li>
+                <li class="nav-main-list"><a href="contact.html"> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+            <div class="form-info">
+                
+                <label class="hidden">Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                <label>Naam <br>
+                    <input type="text"></label><br>
+
+                <label>Email <br>
+                <input type="email"></label><br>
+
+
+                <label>Tekst<br>
+                <input type="text"></label><br>
+
+
+                <input class="submit" type="submit" value="Verzenden">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
