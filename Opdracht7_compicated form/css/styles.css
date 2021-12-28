@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Shadows Into Light', cursive;
+    text-transform: uppercase;
+    background-color: rgb(48, 212, 158);
+}
+
+
+
+form {
+    width: 800px;
+    margin: auto;
+}
+
+.form-info {
+    display: flex;
+    
+}
+
+label {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 200px;
+}
+
+
+.contact-form {
+    padding: 10%;
+}
+
+#contact-form{
+    border-left: solid #666 3px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.radio-button {
+    border: solid #666 1px;
+    width: 205px;
+}
+
+.favo-keuken {
+    border: solid #666 1px;
+    width: 205px;
+}
+
+.akkoord {
+    text-align: center;
+}
+
+.submit {
+    margin-top: 15%;
+    text-transform: uppercase;
+    width: 40%;
+    
+}

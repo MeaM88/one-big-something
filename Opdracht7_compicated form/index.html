@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <title>Complicated fomr</title>
+</head>
+
+<body>
+    <main>
+        <form name="contact" method="POST" netlify>
+            <div class="form-info">
+
+                <div class="contact-form">
+                    <p><label>Naam
+                            <input type="text" name="name"></label></p>
+
+                    <p><label>Email
+                            <input type="text" name="email"></label></p>
+
+
+                    <p><label>Telefoon nr
+                            <input type="text" name="tel"></label></p>
+
+                    <p><label>Leeftijd
+                            <input type="text" name="age"></label></p>
+
+                    <p><label>Geboorte datum
+                            <input type="text" name="date"></label></p>
+
+
+                    <label>Geslacht</label>
+                    <div class="radio-button">
+                        <p><input type="radio" name="gender" value="vrouw">
+                            <label>vrouw</label>
+                        </p>
+                        <p><input type="radio" name="gender" value="man">
+                            <label>man</label>
+                        </p>
+                        <p><input type="radio" name="gender" value="non-binair">
+                            <label>non-binair</label>
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="contact-form" id="contact-form"><label>Favoriete keuken</label>
+                    <div class="favo-keuken">
+                        <p><input type="checkbox" name="French">Frans</p>
+                        <p><input type="checkbox" name="Italian">Italiaans</p>
+                        <p><input type="checkbox" name="Spanisch">Spaans</p>
+                        <p><input type="checkbox" name="Arabic">Arabisch</p>
+                    </div>
+                    <br>
+
+                    <label>Favoriete kleur schort</label>
+                    <div class="favo-kleur">
+                        <p><input type="color" name="Kleur van het schort"></p>
+                    </div>
+                    <br>
+                    <label>Biografie</label><br>
+                    <textarea name="bio" rows="5" cols="33"></textarea>
+                    <br><br>
+                    <label>Recept</label>
+                    <p><input type="file" id="myrecepy" name="filename"></p>
+                    <br>
+                    <label>website recept</label><br>
+                    <input type="url" name="website">
+                </div> <br>
+            </div>
+            <div class="akkoord"><input class="submit" type="submit" value="Verzenden">
+
+                <input class="submit" type="reset" value="reset">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
