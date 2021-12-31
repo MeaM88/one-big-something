@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Titillium+Web:wght@200&display=swap');
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin:0;
+    height: auto;
+    background-color: rgb(134, 113, 53);
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 400;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin:0;
+}
+
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2.5rem;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-size: 2rem;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.hero-img {
+    position: relative;
+}
+
+.hero-titel {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.icon-hamburger-menu {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    width: 30px;
+    z-index: 1;
+    
+}
+
+.mainmenu {
+    margin: auto;
+    width: 100px;
+    margin-top: 60%;
+    text-align: center;
+    
+}
+
+.mainmenu a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 25px;   
+}
+
+.mainmenu-desktop {
+    display: none;
+}
+
+.info-img {
+    width: 90%;  
+    margin: 70px auto 0 auto;
+    border: white solid 10px;   
+}
+
+.info-titel {    
+    text-align: center;   
+    padding: 5%;
+
+}
+
+
+.info-text {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+  
+}
+
+.contact-form {
+    width: 65%;
+    margin: auto;
+    padding: 0 0 70px 0;
+}
+input {
+    width: 100%;
+    background-color: rgb(219, 205, 164);
+    height: 30px;
+    
+}
+
+textarea {
+    width: 100%;
+    background-color: rgb(219, 205, 164);
+}
+
+label {
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+button {
+    background-color: rgb(90, 71, 18);
+    color:rgb(255, 255, 255);
+    margin-top: 5%;
+    padding: 2% 4%;
+    text-transform: uppercase;
+}
+
+.img-showcase {
+    padding: 1% 2%;
+    
+}
+
+.footer {
+    background-color: rgb(14, 13, 13);
+    color: rgb(224, 211, 172);
+    padding: 1%;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+
+@media (min-width: 1024px) {
+  
+  h1{
+      color:rgb(253, 245, 221);
+      font-size: 5rem;
+  }
+
+  h2{
+    color:rgb(253, 245, 221);
+    font-size: 4rem;
+  }
+
+  h3 {
+      font-size: 3rem;
+  }
+
+  p {
+      font-size: 2rem;
+  }
+
+  .hero-titel {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+  .icon-hamburger-menu {
+      display: none;
+  }
+  
+  .mainmenu-desktop {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 60%;
+    top: 8%;
+  }
+
+  .mainmenu-desktop a {
+    text-decoration: none;
+    color: rgb(253, 245, 221);
+    text-transform: uppercase;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    padding: 0 15px;
+  }
+
+.info-titel {
+    width: 70%;
+    margin: auto;
+}
+
+.info-1 {
+    display: flex;
+    align-items: center;
+}
+
+.info-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.info-img {
+    padding: 2%;
+    
+}
+
+.info-text{
+    color:rgb(253, 245, 221);
+    padding: 0 0 70px 0;
+    text-align: center;
+   
+    
+}
+
+  .showcase {
+     display: flex;    
+     padding:0;
+     margin-top: 40px;
+      
+  }
+  .img-showcase {
+       padding:0;
+  }
+  
+}
